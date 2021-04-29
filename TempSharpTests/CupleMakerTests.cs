@@ -20,7 +20,7 @@ namespace TempSharp.Tests
         [TestMethod()]
         public void FindPiarTest_FirstNull()
         {
-            Assert.AreEqual(ReadStringTXT("C:\\Users\\Alex\\source\\repos\\TempSharp\\TempSharpTests\\output\\Error.txt"),
+            Assert.AreEqual(ReadStringTXT("C:\\Users\\Alex\\source\\repos\\TempSharp\\TempSharpTests\\output\\first_null.txt"),
                 cupleMaker.FindPiar(null, 
                                     ReadHumenTXT("C:\\Users\\Alex\\source\\repos\\TempSharp\\TempSharpTests\\input\\all_param_correct.txt")));
         }

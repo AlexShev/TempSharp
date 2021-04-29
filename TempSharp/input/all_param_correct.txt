@@ -1,0 +1,12 @@
+﻿Chan;Dominic;male;13.09.1961;London;7(073)031-37-27
+10
+Vartdal;Emelie;female;29.02.1964;Yerk;7(327)715-32-23
+Robinson;Zara;female;06.07.1977;Yerk;7(210)030-31-24
+Moore;Douglas;male;07.11.1976;London;7(557)204-11-47
+Morales;Luis;male;17.04.1970;London;7(423)448-22-67
+Wende;Nikolas;male;27.06.1975;London;7(630)563-66-83
+Hannula;Venla;female;31.01.1966;London;7(515)001-43-55
+Rodriquez;Debbie;female;13.01.1981;London;7(217)853-62-25
+Clarke;Martha;female;23.09.1962;London;7(774)671-13-71
+Salminen;Nella;female;16.01.1973;London;7(083)842-16-62
+Engan;Natalia;female;15.07.1994;London;7(534)567-41-51

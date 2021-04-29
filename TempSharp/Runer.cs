@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace TempSharp
 {
@@ -6,23 +7,37 @@ namespace TempSharp
     {
         public void Run() 
         {
-			Human first = null;
+            string fileName = "C:\\Users\\Alex\\source\\repos\\TempSharp\\TempSharp\\input\\all_param_correct.txt";
 
-			SetHuman(ref first);
+            System.IO.StreamReader sr = new System.IO.StreamReader(fileName, Encoding.Default);
 
-			int dataBaseSize = int.Parse(Console.ReadLine());
+            Human first = null;
+            try {
+                first = new Human(sr.ReadLine());
+            }
+            catch (Exception) { }
 
-            Human[] dataBase = new Human [dataBaseSize];
+            Human[] dataBase = new Human[int.Parse(sr.ReadLine())];
 
-			for (int i = 0; i < dataBaseSize; i++)
+            for (int i = 0; i < dataBase.Length; i++)
             {
-				SetHuman(ref dataBase[i]);
+                try {
+                    dataBase[i] = new Human(sr.ReadLine());
+                }
+                catch (Exception) { }
             }
 
-			CupleMaker cupleMaker = new CupleMaker();
+            sr.Close();
 
-			Console.WriteLine(cupleMaker.FindPiar(first, dataBase));
-		}
+            CupleMaker cupleMaker = new CupleMaker();
+
+            fileName = "C:\\Users\\Alex\\source\\repos\\TempSharp\\TempSharp\\output\\all_param_correct.txt";
+
+            using (System.IO.StreamWriter streamWriter = new System.IO.StreamWriter(fileName)) 
+            {
+                streamWriter.WriteLine(cupleMaker.FindPiar(first, dataBase));
+            }
+        }
 
 		private Human ReadHuman()
 		{
