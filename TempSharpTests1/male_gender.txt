@@ -1,0 +1,13 @@
+﻿12
+Hannula;Ad;male;1.04.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.05.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.06.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.07.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.08.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.09.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.10.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.11.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.12.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.01.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.02.1966;London;7(515)001-43-55
+Hannula;Ad;male;1.03.1966;London;7(515)001-43-55
