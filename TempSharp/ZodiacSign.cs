@@ -26,27 +26,27 @@ namespace TempSharp
         {
             var year = birthday.Year;
 
-            if ((new DateTime(year, 12, 22) <= birthday) || (birthday <= new DateTime(year, 1, 19)))
+            if ((new DateTime(year, 12, 23) <= birthday) || (birthday <= new DateTime(year, 1, 20)))
+            {
+                MyZodiacSign = ZodiacSigns.capricorn;
+            }
+            else if (birthday <= new DateTime(year, 2, 19))
             {
                 MyZodiacSign = ZodiacSigns.aquarius;
             }
-            else if (birthday <= new DateTime(year, 2, 18))
-            {
-                MyZodiacSign = ZodiacSigns.aquarius;
-            }
-            else if (birthday <= new DateTime(year, 3, 21))
+            else if (birthday <= new DateTime(year, 3, 20))
             {
                 MyZodiacSign = ZodiacSigns.pisces;
             }
-            else if (birthday <= new DateTime(year, 4, 19))
+            else if (birthday <= new DateTime(year, 4, 20))
             {
                 MyZodiacSign = ZodiacSigns.aries;
             }
-            else if (birthday <= new DateTime(year, 5, 20))
+            else if (birthday <= new DateTime(year, 5, 21))
             {
                 MyZodiacSign = ZodiacSigns.taurus;
             }
-            else if (birthday <= new DateTime(year, 6, 20))
+            else if (birthday <= new DateTime(year, 6, 21))
             {
                 MyZodiacSign = ZodiacSigns.twins;
             }
@@ -54,23 +54,23 @@ namespace TempSharp
             {
                 MyZodiacSign = ZodiacSigns.cancer;
             }
-            else if (birthday <= new DateTime(year, 8, 22))
+            else if (birthday <= new DateTime(year, 8, 21))
             {
                 MyZodiacSign = ZodiacSigns.leo;
             }
-            else if (birthday <= new DateTime(year, 9, 22))
+            else if (birthday <= new DateTime(year, 9, 23))
             {
                 MyZodiacSign = ZodiacSigns.virgo;
             }
-            else if (birthday <= new DateTime(year, 10, 22))
+            else if (birthday <= new DateTime(year, 10, 23))
             {
                 MyZodiacSign = ZodiacSigns.libra;
             }
-            else if (birthday <= new DateTime(year, 11, 21))
+            else if (birthday <= new DateTime(year, 11, 22))
             {
                 MyZodiacSign = ZodiacSigns.scorpio;
             }
-            else if (birthday <= new DateTime(year, 12, 21))
+            else if (birthday <= new DateTime(year, 12, 22))
             {
                 MyZodiacSign = ZodiacSigns.sagittarius;
             }

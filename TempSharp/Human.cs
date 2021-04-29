@@ -6,7 +6,7 @@ namespace TempSharp
     {
         public string SurName { get; private set; }
         public string FirstName { get; private set; }
-        public DateTime MyBirthday { get; private set; }
+        public DateTime MyBirthday { get; set; }
         public Gender MyGender { get; private set; }
         public string MyCity { get; private set; }
         public string MyPhoneNumber { get; private set; }
