@@ -1,4 +1,4 @@
-﻿Chan;Dominic;male;13.09.1961;London;7(073)031-37-27
+﻿Chan;Dominic;mal;13.09.1961;London;7(073)031-37-27
 10
 Vartdal;Emelie;female;29.02.1964;Yerk;7(327)715-32-23
 Robinson;Zara;female;06.07.1977;Yerk;7(210)030-31-24

@@ -1,4 +1,5 @@
-﻿10
+﻿Chan;Dominic;male;13.09.1961;London;7(073)031-37-27
+10
 Vartdal;Ad;female;29.02.2000;Yerk;7(327)715-32-23
 Robinson;Ad;female;06.07.2000;Yerk;7(210)030-31-24
 Moore;Ad;male;07.11.2000;London;7(557)204-11-47
